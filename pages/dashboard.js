@@ -12,7 +12,7 @@ import {
 } from "../lib/payroll";
 
 const ETA_HOUR_OPTIONS = Array.from({ length: 13 }, (_, index) => index);
-const ETA_MINUTE_OPTIONS = Array.from({ length: 12 }, (_, index) => index * 5);
+const ETA_MINUTE_OPTIONS = Array.from({ length: 61 }, (_, index) => index);
 
 function todayDateString() {
   const now = new Date();
