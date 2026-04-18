@@ -731,3 +731,14 @@ textarea:disabled {
     padding: 1.2rem;
   }
 }
+
+select option {
+  color: #08131d;
+  background: #f7fafc;
+}
+
+select option:checked {
+  color: #08131d;
+  background: #f0a740;
+}
+
