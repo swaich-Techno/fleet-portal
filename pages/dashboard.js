@@ -857,13 +857,13 @@ export default function DashboardPage() {
 
                     <div className="entry-footer">
                       <span className="hours-pill regular">
-                        Regular {formatHours(job.payroll?.regularHours || 0)}h
+                        Regular {formatHours(job.payroll?.regularHours || 0)}
                       </span>
                       <span className="hours-pill after">
-                        After {formatHours(job.payroll?.afterHours || 0)}h
+                        After {formatHours(job.payroll?.afterHours || 0)}
                       </span>
                       <span className="hours-pill total">
-                        Total {formatHours(job.payroll?.totalHours || 0)}h
+                        Total {formatHours(job.payroll?.totalHours || 0)}
                       </span>
                     </div>
 
@@ -1027,13 +1027,13 @@ export default function DashboardPage() {
                       <p className="entry-issue">{job.issue}</p>
                       <div className="entry-footer">
                         <span className="hours-pill regular">
-                          Regular {formatHours(job.payroll?.regularHours || 0)}h
+                          Regular {formatHours(job.payroll?.regularHours || 0)}
                         </span>
                         <span className="hours-pill after">
-                          After {formatHours(job.payroll?.afterHours || 0)}h
+                          After {formatHours(job.payroll?.afterHours || 0)}
                         </span>
                         <span className="hours-pill total">
-                          Total {formatHours(job.payroll?.totalHours || 0)}h
+                          Total {formatHours(job.payroll?.totalHours || 0)}
                         </span>
                       </div>
                     </article>
